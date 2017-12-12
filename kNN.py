@@ -12,11 +12,11 @@ Output:     最接近的类标签
 @author: Ezra
 @email:zgahwuqiankun@qq.com
 参考机器学习实践
+这个例子比较简单，数据集一共四个点
 """
 
 from numpy import *
 import operator
-from os import listdir
 
 def createDataSet():
     group = array([[1.0,1.1],[1.0,1.0],[0,0],[0,0.1]])
